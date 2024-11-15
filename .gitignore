@@ -1,0 +1,11 @@
+# Ignore everything by default
+**
+
+# Allow specific files
+!README.md
+!*.repos
+|.gitignore
+
+# Ignore README.md and *.repos files in subdirectories
+**/README.md
+**/*.repos
